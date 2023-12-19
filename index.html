@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Borel&family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10.1.0/swiper-bundle.min.css"
+    />
+    <title>PROJECT</title>
+    <style>
+      * {
+  padding: 0;
+  margin: 0;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+body {
+  font-family: "Borel", cursive;
+  font-family: "Open Sans", sans-serif;
+  background-color: #dff0d8;
+  color: #a09e9f;
+}
+/* CSS for Header Tag */
+.IP{
+    width: 55px;
+    position: relative;
+}
+.header{
+    background-color: #333333;
+    padding: 15px;
+}
+.container{
+    max-width: 1260px;
+    margin: 0 auto;
+}
+.flex-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.logo{
+    flex-basis: 25%;
+}
+.nav-bar{
+    flex-basis: 25%;
+   
+}
+.logo a{
+    padding: 20px;
+    display: inline-block;
+}
+.nav-bar ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: black;
+}
+.nav-bar ul li{
+    background-color: black;
+    color: white;
+}
+.distance{
+    margin: 35px 0px;
+}
+.flex-3-col{
+    flex-basis: 30%;
+}
+h3{
+    font-size: 14px;
+    margin: 15px 0px;
+}
+.Read-More,.Read-More a{
+    color: #edbe45;
+    text-decoration: none;
+}
+p{
+    margin: 15px 0px;
+}
+.flex-half{
+    flex-basis: 49%;
+}
+h1{
+    color: black;
+}
+/* Footer */
+.footer-top{
+    background-color: #333333;
+    padding: 30px 0px;
+}
+h4{
+    color: white;
+    margin: 15px 0px;
+}
+.footer-top ul{
+    list-style: none;
+}
+.footer-top ul li a{
+    color: #f28c21;
+    text-decoration: none;
+}
+.footer-top ul li{
+    margin: 0 0 5px 0;
+    padding:  0 0 5px 0;
+    border-bottom:1px solid #555555;
+}
+.flex-4-col{
+    flex-basis: 22%;
+}
+.footer-bottom{
+    background-color: #232323;
+    color: #979797;
+}
+.created{
+    text-align: right;
+}
+/* Mobile */
+@media(max-width:767px){
+    .flex-box{
+        flex-direction: column;
+    }
+    .header,.nav-bar ul{
+        text-align: center;
+    }
+    .container{
+        padding: 0 25px;
+    }
+    .nav-bar ul{
+        justify-content: center;
+    }
+}
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <div class="container">
+        <div class="flex-box">
+          <div class="logo">
+            
+            <a href="www.google.com"><img class="IP" src="/PROJECT/YOUTUBE/hero7.png" alt=""></a>
+          </div>
+          <div class="nav-bar">
+            <ul>
+              <li>Home</li>
+              <li>About</li>
+              <li>Contact</li>
+              <li>Dial</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="content">
+      <div class="container">
+        <div class="slider distance">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="https://picsum.photos/1260/400" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://picsum.photos/1260/400" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://picsum.photos/1260/400" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://picsum.photos/1260/400" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://picsum.photos/1260/400" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://picsum.photos/1260/400" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://picsum.photos/1260/400" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://picsum.photos/1260/400" alt="" />
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+
+          <!-- Swiper JS -->
+          <script src="https://cdn.jsdelivr.net/npm/swiper@10.1.0/swiper-bundle.min.js"></script>
+
+          <!-- Initialize Swiper -->
+          <script>
+            var swiper = new Swiper(".mySwiper", {
+              navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+              },
+            });
+          </script>
+        </div>
+      </div>
+      <div class="container">
+        <div class="flex-box">
+          <div class="flex-3-col">
+            <img src="https://picsum.photos/800/350" alt="" />
+            <h3>Ijasfjk saljdfkjl</h3>
+            <p>Virat Kohli, an iconic figure in the realm of international cricket, has left an indelible mark 
+              with his extraordinary prowess and unrelenting passion for the game. Born on November 5, 1988,
+              in Delhi, India, Kohli's journey from a young and talented cricketer to a modern-day legend has
+              been nothing short of awe-inspiring.</p>
+            <p class="Read-More"><a href="#">Read-More>></a></p>
+          </div>
+          <div class="flex-3-col">
+            <img src="https://picsum.photos/800/350" alt="" />
+            <h3>Ijasfjk saljdfkjl</h3>
+            <p>Virat Kohli, an iconic figure in the realm of international cricket, has left an indelible mark 
+              with his extraordinary prowess and unrelenting passion for the game. Born on November 5, 1988,
+              in Delhi, India, Kohli's journey from a young and talented cricketer to a modern-day legend has
+              been nothing short of awe-inspiring.</p>
+            <p class="Read-More"><a href="#">Read-More>></a></p>
+          </div>
+          <div class="flex-3-col">
+            <img src="https://picsum.photos/800/350" alt="" />
+            <h3>Ijasfjk saljdfkjl</h3>
+            <p>Virat Kohli, an iconic figure in the realm of international cricket, has left an indelible mark 
+              with his extraordinary prowess and unrelenting passion for the game. Born on November 5, 1988,
+              in Delhi, India, Kohli's journey from a young and talented cricketer to a modern-day legend has
+              been nothing short of awe-inspiring.</p>
+            <p class="Read-More"><a href="#">Read-More>></a></p>
+          </div>
+          
+        </div>
+      </div>
+      <div class="container">
+        <div class="flex-box distance">
+          <div class="flex-half">
+            <h1>VIRAT KOHLI</h1>
+            <p>Virat Kohli, an iconic figure in the realm of international cricket, has left an indelible mark 
+              with his extraordinary prowess and unrelenting passion for the game. Born on November 5, 1988,
+              in Delhi, India, Kohli's journey from a young and talented cricketer to a modern-day legend has
+              been nothing short of awe-inspiring.</p>
+            <p>Virat Kohli, an iconic figure in the realm of international cricket, has left an indelible mark 
+              with his extraordinary prowess and unrelenting passion for the game. Born on November 5, 1988,
+              in Delhi, India, Kohli's journey from a young and talented cricketer to a modern-day legend has
+              been nothing short of awe-inspiring.</p>
+            <p class="Read-More"><a href="#">Read-More>></a></p>
+          </div>
+          <div class="flex-half">
+            <img src="https://picsum.photos/800/450" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-top">
+      <div class="container">
+        <div class="flex-box">
+          <div class="flex-4-col">
+            <h4>LINK BLOCK</h4>
+            <ul>
+              <li><a href="#">Virat kohli The legend.</a></li>
+              <li><a href="#">Virat kohli The legend.</a></li>
+              <li><a href="#">Virat kohli The legend.</a></li>
+              <li><a href="#">Virat kohli The legend.</a></li>
+            </ul>
+          </div>
+          <div class="flex-4-col">
+            <h4>LINK BLOCK</h4>
+            <ul>
+              <li><a href="#">Virat kohli The legend.</a></li>
+              <li><a href="#">Virat kohli The legend.</a></li>
+              <li><a href="#">Virat kohli The legend.</a></li>
+              <li><a href="#">Virat kohli The legend.</a></li>
+            </ul>
+          </div>
+          <div class="flex-4-col">
+            <h4>LINK BLOCK</h4>
+            <ul>
+              <li><a href="#">Virat kohli The legend.</a></li>
+              <li><a href="#">Virat kohli The legend.</a></li>
+              <li><a href="#">Virat kohli The legend.</a></li>
+              <li><a href="#">Virat kohli The legend.</a></li>
+            </ul>
+          </div>
+          <div class="flex-4-col">
+            <h4>LINK BLOCK</h4>
+            <ul>
+              <li><a href="#">Virat kohli The legend.</a></li>
+              <li><a href="#">Virat kohli The legend.</a></li>
+              <li><a href="#">Virat kohli The legend.</a></li>
+              <li><a href="#">Virat kohli The legend.</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="flex-box">
+          <div class="flex-2-col copy">
+            <p>Copyright &#169; 2023 | All rights reserved - Domain Name</p>
+          </div>
+          <div class="flex-2-col created">
+            <p>Template by Venkat.com</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
